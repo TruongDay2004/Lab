@@ -1,0 +1,26 @@
+name: lab10_5
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Thêm đầy đủ các dependencies cho Lab 10 & Lab 10.5
+  http: ^1.2.0                 # Dùng cho Real API Login
+  shared_preferences: ^2.2.2   # Dùng cho Session / Auto-login
+  flutter_local_notifications: ^17.2.4 # Dùng cho Local Notification (LO7)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
